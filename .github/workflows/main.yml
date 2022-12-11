@@ -1,0 +1,14 @@
+name: basic workflow
+
+on:
+  workflow_call:
+
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: display message
+        shell: bash
+        run: |
+          echo "Hello world!"
