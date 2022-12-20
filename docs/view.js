@@ -21,7 +21,7 @@ $(function(){
                 type: 'GET',
                 url: 'https://api.github.com/repos/browserless/chrome/actions/workflows/'+ data + '/runs',
                 headers: {'Accept': 'application/vnd.github+json',
-                            'Authorization': 'Bearer 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', 
+                            'Authorization': 'Bearer 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', 
                         },
                 dataType: "json",
                 async: false,
