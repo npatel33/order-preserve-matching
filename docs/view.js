@@ -21,7 +21,7 @@ $(function(){
                 type: 'GET',
                 url: 'https://api.github.com/repos/browserless/chrome/actions/workflows/'+ data + '/runs',
                 headers: {'Accept': 'application/vnd.github+json',
-                            'Authorization': 'Bearer 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', 
+                            'Authorization': 'Bearer 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', 
                         },
                 dataType: "json",
                 async: false,
@@ -43,7 +43,7 @@ $(function(){
                 }
             });
         });
-    }, 10000);
+    }, 25000);
 
 
 

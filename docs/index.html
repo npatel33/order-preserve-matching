@@ -8,14 +8,28 @@
     <script src="content/jquery.js"></script>
     <script src="content/gridster.js"></script>
     <script src="view.js"></script>
+    <script src="content/bootstrap.min.js"></script>
     <link rel="stylesheet" href="content/jquery.gridster.css">
     <link rel="stylesheet" href="content/dashboard.css">
+    <link rel="stylesheet" href="content/bootstrap.min.css">
 </head>
 <body>
-    <h1>Hello Dashboard!</h1>
-    <div class="gridster">
-        <ul>
-        </ul>
-    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="gridster">
+                <ul>
+                </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <p>Second slide</p>
+          </div>
+          <div class="carousel-item">
+            <p>Third slide</p>
+          </div>
+        </div>
+      </div>
+
 </body>
 </html>
